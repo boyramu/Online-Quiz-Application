@@ -34,6 +34,7 @@ Online-Quiz-Application/
 ??? static/
 ? ??? styles.css
 ??? pom.xml
+
 User Features
 - Register and Login with username and password
 - User Dashboard with available quizzes
@@ -44,6 +45,7 @@ User Features
 - View Leaderboard for each quiz
 - View Quiz History: number of attempts, past scores
 - Logout
+  
 Admin Features
 - Admin Login
 - Create New Quizzes
@@ -53,6 +55,7 @@ Admin Features
 - View All Questions per quiz
 - Delete Quizzes
 - Logout
+
 Getting Started
 1. Clone the Repository
  git clone https://github.com/boyramu/Online-Quiz-Application.git
@@ -63,13 +66,16 @@ Getting Started
 3. Run the Application
  ./mvnw spring-boot:run
  or run QuizApplication.java from IDE
+
 Sample Accounts
 User:
 - Username: user1
 - Password: userpass
+  
 Admin:
 - Username: admin
 - Password: adminpass
+  
 Screenshots (Optional)
 - Login Page
 - User Dashboard
@@ -77,12 +83,13 @@ Screenshots (Optional)
 - Result Page
 - Leaderboard
 - Admin Panel
+  
 Database Tables (Suggested)
 - users
-- quizzes
+- quiz
 - questions
-- attempts
-- attempt_answers
+- results
+  
 Contributing
 Pull requests are welcome.
 License
