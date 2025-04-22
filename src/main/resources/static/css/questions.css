@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f7fa;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: auto;
+}
+
+li {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+li strong {
+    color: #444;
+    display: block;
+    margin-bottom: 8px;
+}
+
+li ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+li ul li {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+form {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+form button[type="submit"] {
+    transition: background-color 0.3s;
+}
+
+/* Delete Button */
+form[action="deleteQuestion"] button {
+    background-color: #e74c3c;
+}
+form[action="deleteQuestion"] button:hover {
+    background-color: #c0392b;
+}
+
+/* Edit Button */
+form[action="editQuestionForm"] button {
+    background-color: #3498db;
+}
+form[action="editQuestionForm"] button:hover {
+    background-color: #2980b9;
+}
+
+/* Form Container Styles */
+form[action="updateQuestion"],
+form[action="addQuestion"] {
+    max-width: 500px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input[type="text"],
+select,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Submit Buttons */
+input[type="submit"],
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #2ecc71;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover,
+button[type="submit"]:hover {
+    background-color: #27ae60;
+}
+
+/* Dashboard Link */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Extra Styling for Button Groups */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+
+.back-btn {
+    background-color: #6c757d;
+    margin-right:10px;
+}
+.back-btn:hover {
+    background-color: #5a6268;
+}
+
+.submit-btn {
+    background-color: #007bff;
+}
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+.success-message {
+	color:red; 
+	font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    font-display:initial;
+	font-size: 16px; 
+	font-weight: 900;
+	padding: 15px; 
+	justify-content:center;
+	border-radius: 8px; 
+	margin-left: 20%;
+	margin-bottom:-5%;
+
+}
